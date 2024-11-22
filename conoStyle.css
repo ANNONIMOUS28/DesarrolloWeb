@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #fc697a;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.quienes-somos {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quienes-somos h2 {
+    color: #fc697a;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.fotos-equipo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.fotos-equipo img {
+    border-radius: 10px;
+    width: 30%;
+}
+
+.mision-vision {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenido-mision, .contenido-vision {
+    flex: 1;
+}
+
+.contenido-mision h3, .contenido-vision h3 {
+    font-size: 28px;
+    color: #fc697a;
+    margin-bottom: 15px;
+}
+
+.valores {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.valores h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #fc697a;
+}
+
+.valores-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.valor {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.valor img {
+    margin-bottom: 15px;
+    width: 50px;
+}
+
+.valor h4 {
+    font-size: 22px;
+    color: #fc697a;
+    margin-bottom: 10px;
+}
+
+.valor p {
+    font-size: 16px;
+    color: #555;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}

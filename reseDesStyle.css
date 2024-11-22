@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-reservaciones {
+    background-image: url('img/viajesss.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.header-reservaciones h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.header-reservaciones p {
+    font-size: 18px;
+}
+
+.formulario-reserva {
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.formulario-reserva h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #4c7ef3;
+}
+
+.form-reserva {
+    display: grid;
+    gap: 20px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-reservar {
+    background-color: #4c7ef3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-reservar:hover {
+    background-color: #365fb5;
+}
+
+.destinos-destacados {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.destinos-destacados h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #4c7ef3;
+}
+
+.grid-destinos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.destino {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.destino img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destino h3 {
+    font-size: 22px;
+    color: #4c7ef3;
+    margin: 10px 0;
+}
+
+.destino p {
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .grid-destinos {
+        grid-template-columns: 1fr;
+    }
+}

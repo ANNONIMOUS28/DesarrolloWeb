@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contcStyle.css">
+    <script src="contcScript.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Contacto</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#formulario">Formulario</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                    <li><a href="#redes">Redes Sociales</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="formulario" class="contact-form container">
+        <h2>¡Contáctame!</h2>
+        <form id="contacto-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Email" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <section id="ubicacion" class="ubicacion container">
+        <h2>Ubicación</h2>
+        <p>Te esperamos en nuestras oficinas en:</p>
+        <p>Dirección: Calle Kamila 123, Ciudad Tobar321, País</p>
+        <div id="mapa">
+            <iframe src="https://www.google.com/maps/place/Monter%C3%ADa,+C%C3%B3rdoba/@8.7605485,-75.88197,13z/data=!3m1!4b1!4m6!3m5!1s0x8e5a2fe5a57031ad:0x92e1cbad2ed7c0a0!8m2!3d8.750983!4d-75.8785348!16zL20vMDRrd3Jw?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D"></iframe>
+        </div>
+    </section>
+
+    <section id="redes" class="redes container">
+        <h2>Redes Sociales</h2>
+        <div class="socials">
+            <a href="https://www.facebook.com/">
+                <img src="img/k1.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="img/k2.png" alt="">
+            </a>
+            <a href="https://x.com/i/flow/login">
+                <img src="img/k3.png" alt="">
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Kamila Tobar</p>
+    </footer>
+</body>
+</html>

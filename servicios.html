@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #FC697A;
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        /* Estilos de los servicios */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 30px;
+        }
+
+        .service {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+            position: relative;
+        }
+
+        .service:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .service img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .service h2 {
+            color: #12114D;
+        }
+
+        .service p {
+            color: #555;
+        }
+
+        /* Botón de contacto */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #555;
+            color: white;
+        }
+
+        .btn {
+            background-color: #ff9800;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+
+        .btn:hover {
+            background-color: #e68900;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nuestros Servicios</h1>
+        <p>Ofrecemos experiencias personalizadas para cada viajero.</p>
+    </header>
+
+    <section class="services">
+        <div class="service">
+            <img src="img/consultoria.jpg" alt="Consultoría de Viajes"> 
+            <h2>Consultoría de Viajes</h2>
+            <p>Te ayudamos a planificar tu viaje ideal con asesoramiento experto.</p>
+        </div>
+
+        <div class="service">
+            <img src="img/reservaciones.jpg" alt="Reservaciones"> 
+            <h2>Reservaciones</h2>
+            <p>Realizamos todas las reservaciones necesarias para tu comodidad.</p>
+        </div>
+
+        <div class="service">
+            <img src="img/paquetes.jpg" alt="Paquetes Especiales"> 
+            <h2>Paquetes Especiales</h2>
+            <p>Te ofrecemos paquetes exclusivos adaptados a tus gustos.</p>
+        </div>
+    </section>
+
+    <footer>
+        <a href="contacto.html" class="btn">Contacta con nosotros</a>
+        <p>&copy; 2024 Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

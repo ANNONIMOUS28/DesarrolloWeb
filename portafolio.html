@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="portStyle.css">
+    <script src="porScript.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Bienvenidos a Mi Portafolio</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="proyectos" class="proyectos container">
+        <h2>Mis Proyectos</h2>
+        <div class="filtro">
+            <button class="filtro-btn" data-filter="todos">Todos</button>
+            <button class="filtro-btn" data-filter="web">Web</button>
+            <button class="filtro-btn" data-filter="movil">Móvil</button>
+        </div>
+        <div class="galeria">
+            <div class="proyecto web">
+                <img src="img/proyecto1.jpg" alt="Proyecto Web 1">
+                <h3>Proyecto Web 1</h3>
+                <p>Un sitio web increíble para una marca.</p>
+            </div>
+            <div class="proyecto movil">
+                <img src="img/proyecto2.jpg" alt="Proyecto Web 2">
+                <h3>Proyecto Web 2</h3>
+                <p>Un portafolio personal interactivo.</p>
+            </div>
+            <div class="proyecto web">
+                <img src="img/proyecto3.jpg" alt="Aplicación Móvil">
+                <h3>Aplicación Móvil</h3>
+                <p>Desarrollo de una app de viajes.</p>
+            </div>
+            <div class="proyecto movil">
+                <img src="img/proyecto4.jpg" alt="E-Commerce">
+                <h3>E-Commerce</h3>
+                <p>Tienda en línea para productos de belleza.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="sobre-mi container">
+        <h2>Sobre Mí</h2>
+        <p>
+            Soy un desarrollador apasionado por la tecnología y el diseño. He trabajado en varios proyectos, creando experiencias digitales únicas y funcionales. Mi objetivo es seguir aprendiendo y creciendo profesionalmente, ofreciendo soluciones innovadoras.
+        </p>
+    </section>
+
+    <section id="contacto" class="contacto container">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Email" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Kamila Tobar</p>
+    </footer>
+</body>
+</html>

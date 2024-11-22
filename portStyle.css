@@ -1,0 +1,163 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #13114D;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.proyectos {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.proyectos h2 {
+    font-size: 36px;
+    color: #13114D;
+}
+
+.filtro {
+    margin-bottom: 30px;
+}
+
+.filtro-btn {
+    background-color: #FC697A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.filtro-btn:hover {
+    background-color: #12114D;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyecto {
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.proyecto h3 {
+    font-size: 24px;
+    color: #13114D;
+    margin: 15px 0;
+}
+
+.proyecto p {
+    font-size: 16px;
+    color: #656875;
+}
+
+.proyecto:hover {
+    transform: scale(1.05);
+}
+
+.sobre-mi {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.sobre-mi p {
+    font-size: 18px;
+    color: #656875;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contacto {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #F5F9FC;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contacto input, .contacto textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contacto button {
+    padding: 10px 20px;
+    background-color: #FC697A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #12114D;
+}
+
+
+.footer {
+    background-color: #13114D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}

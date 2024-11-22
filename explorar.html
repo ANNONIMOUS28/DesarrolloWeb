@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explora Más</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        .item-details {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 10px;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .gallery-item:hover .item-details {
+            display: block;
+            opacity: 1;
+        }
+        .details-button {
+            background-color: #f0a500;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .details-button:hover {
+            background-color: #e08900;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explora Más Destinos Increíbles</h1>
+        <p>Haz clic en las imágenes para descubrir más sobre nuestros destinos más recomendados.</p>
+    </header>
+
+    <section class="gallery">
+     
+        <div class="gallery-item">
+            <img src="img/destino1.jpg" alt="Destino 1"> 
+            <div class="item-details">
+                <h3>París, Francia</h3>
+                <p>Disfruta de la ciudad del amor, sus monumentos icónicos y su gastronomía exquisita.</p>
+                <a href="https://www.cia-france.es/" class="details-button" target="_blank">Descubre Más</a>
+
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/destino2.jpg" alt="Destino 2"> 
+            <div class="item-details">
+                <h3>Tokio, Japón</h3>
+                <p>Explora la mezcla única de tradición y tecnología de la capital japonesa.</p>
+                <a href="https://www.japan.travel/l" class="details-button" target="_blank">Descubre Más</a>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/destino3.jpg" alt="Destino 3"> 
+            <div class="item-details">
+                <h3>Kioto, Japón</h3>
+                <p>Sumérgete en la cultura ancestral de Japón con templos antiguos y jardines zen.</p>
+                <a href="https://www.japan.travel/" class="details-button">Descubre Más</a>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/destino4.jpg" alt="Destino 4">
+            <div class="item-details">
+                <h3>Gran Cañón, USA</h3>
+                <p>Un lugar natural impresionante que ofrece paisajes inigualables.</p>
+                <a href="https://www.nps.gov/" class="details-button">Descubre Más</a>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/destino5.jpg" alt="Destino 5">
+            <div class="item-details">
+                <h3>Barcelona, España</h3>
+                <p>Descubre la belleza de la Sagrada Familia, las playas y la arquitectura única de Gaudí.</p>
+                <a href="https://www.spain.info/" class="details-button">Descubre Más</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="img/destino6.jpg" alt="Destino 6">
+            <div class="item-details">
+                <h3>Roma, Italia</h3>
+                <p>Visita los monumentos históricos como el Coliseo y la Fontana di Trevi en Roma.</p>
+                <a href="https://www.italia.it/" class="details-button">Descubre Más</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kamila Tobar</p>
+    </footer>
+</body>
+</html>
